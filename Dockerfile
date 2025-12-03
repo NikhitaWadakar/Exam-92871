@@ -1,5 +1,5 @@
-FROM Nginx
-COPY index.html /usr/local/Nginx/htdocs/
+FROM nginx
+COPY index.html /usr/local/nginx/htdocs/
 EXPOSE 5000
 
 
